@@ -48,8 +48,9 @@
                 :compiler {:output-to "resources/public/js/compiled/carbon_snake.js"
                            :main carbon-snake.core
                            :optimizations :advanced
-                           :pretty-print true
-                           :pseudo-names true}}]}
+                           ;; :pretty-print true
+                           ;; :pseudo-names true
+                           }}]}
 
   :figwheel {;; :http-server-root "public" ;; default and assumes "resources"
              ;; :server-port 3449 ;; default
