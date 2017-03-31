@@ -1,6 +1,6 @@
 (ns carbon-snake.grid)
 
-(def initial-state
+(defn initial-state []
   {:size 15})
 
 (defn random-position [size]

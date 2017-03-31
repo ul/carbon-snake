@@ -3,7 +3,7 @@
             [carbon-snake.cell :as cell]
             ))
 
-(def initial-state nil)
+(defn initial-state [] nil)
 
 (defn apple [position]
   (when-let [[x y] @position]
